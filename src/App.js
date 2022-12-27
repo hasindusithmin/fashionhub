@@ -73,7 +73,7 @@ function App() {
   return (
     <div className='w3-content w3-panel'>
 
-      <h1 className='w3-center w3-opacity'><b>CLIENTS</b></h1>
+      <h1 className='w3-center w3-opacity'><b>MY CLIENTS</b></h1>
       {
         SHUSERS && USERS &&
         USERS.map((USER) => <User key={USER['id']} id={USER['id']} username={USER['username']} name={USER['name']} email={USER['email']} website={USER['website']} VIEWPOST={VIEWPOST} />)
